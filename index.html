@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neo's Salon WhatsApp Bot</title>
+  <style>
+    body { margin: 0; font-family: 'Montserrat', sans-serif; background: #FAF7F0; color: #333; }
+    header { text-align: center; padding: 2rem 1rem; }
+    header img { width: 100px; height: 100px; border-radius: 50%; border: 2px solid #C1574B; }
+    header h1 { margin: 0.5rem 0; font-family: 'Pacifico', cursive; font-size: 2.2rem; }
+    header p { max-width: 600px; margin: 0.5rem auto; color: #555; }
+    .cta-btn { display: inline-block; background: #C1574B; color: #FAF7F0; text-decoration: none; padding: 0.75rem 1.5rem; border-radius: 999px; font-size: 1rem; margin-top: 0.5rem; }
+
+    section { padding: 2rem 1rem; }
+    .how-it-works { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; text-align: center; }
+    .step { background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 200px; }
+    .step-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+
+    .benefits { max-width: 800px; margin: 0 auto; }
+    .benefits li { margin: 0.75rem 0; display: flex; align-items: center; }
+    .benefits li::before { content: '✔️'; margin-right: 0.5rem; color: #C1574B; }
+
+    .demo { text-align: center; }
+    .demo img { max-width: 300px; border: 1px solid #ddd; border-radius: 4px; }
+
+    .pricing { background: #fff; text-align: center; }
+    .pricing h2 { font-family: 'Pacifico', cursive; color: #333; }
+    .pricing p { color: #555; }
+
+    footer { text-align: center; padding: 1.5rem; font-size: 0.9rem; color: #777; }
+    footer a { color: #C1574B; text-decoration: none; }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="your-photo.jpg" alt="Neo at work">
+    <h1>Hey, I’m Neo—Your Local Bot-Builder</h1>
+    <p>I help Spruitview salons never miss a booking—by automating WhatsApp replies & bookings 24/7.</p>
+    <a href="https://wa.me/27XXXXXX?text=hi" class="cta-btn">Chat with the Demo Bot</a>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; margin-bottom:1rem;">How It Works</h2>
+    <div class="how-it-works">
+      <div class="step">
+        <div class="step-icon">📝</div>
+        <strong>Message “Hi”</strong>
+        <p>Bot replies with a simple menu.</p>
+      </div>
+      <div class="step">
+        <div class="step-icon">💡</div>
+        <strong>Pick an Option</strong>
+        <p>Reply 1–3 for booking, prices, or contact.</p>
+      </div>
+      <div class="step">
+        <div class="step-icon">📅</div>
+        <strong>Get Confirmed</strong>
+        <p>Instant confirmation & you get notified.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="text-align:center;">Why It’s Great</h2>
+    <ul class="benefits">
+      <li>No more after-hours “sorry we’re closed” misses</li>
+      <li>Quick menu so customers always know what to ask</li>
+      <li>Instant leads logged—no more forgotten messages</li>
+      <li>Set up in minutes, zero learning curve</li>
+    </ul>
+  </section>
+
+  <section class="demo">
+    <h2>Live Demo</h2>
+    <img src="screenshot-demo.png" alt="Demo chat screenshot">
+    <p><a href="https://wa.me/27XXXXXX?text=menu" class="cta-btn">Try Your Own “menu”</a></p>
+  </section>
+
+  <section class="pricing">
+    <h2>First Trial’s on Me</h2>
+    <p>I’ll set up your salon’s bot for free for 7 days. Then just <strong>R199/mo</strong> to keep it running.</p>
+  </section>
+
+  <footer>
+    <p>Built & supported by <strong>Neo K.</strong> — Based in Spruitview.</p>
+    <p>📱 <a href="https://wa.me/27XXXXXX">+27 XXX XXX XXX</a>  |  ✉️ <a href="mailto:you@example.com">you@example.com</a></p>
+  </footer>
+</body>
+</html>
